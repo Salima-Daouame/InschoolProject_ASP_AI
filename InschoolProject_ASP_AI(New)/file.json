@@ -1,0 +1,29 @@
+{
+  "model": "text-davinci-003",
+  "prompt": "",
+  "max_tokens": 7,
+  "temperature": 0.5,
+  "top_p": 1,
+  "n": 1,
+  "stream": false,
+  "logprobs": null,
+  "stop": "\n",
+  "language": [ "fr", "ar", "en" ]
+}
+/*{
+
+  "model": "text-davinci-003", // version chat gpt 3.5  //text-DaVinci-003 (modèle pré-entraîné de GPT 3.5)
+  "prompt": "", // Variale intiale d'entree  
+  "max_tokens": 1500, //  Tokens can be thought of as pieces of words  1500 token == 1125 words . Reprente number of the input words
+  "temperature": 0.5, //  pour donner des results plus pricise   - 0.1: donne un resulta alleatoire 
+  "top_p": 1, //
+  "n": 1, // précise le nombre de réponses à générer
+  "stream": false, //  les réponses seront retournées ensemble dans une liste.
+  "logprobs": null,
+  "stop": "\n",
+  "language": "fr,ar,en"
+}*/
+
+
+
+

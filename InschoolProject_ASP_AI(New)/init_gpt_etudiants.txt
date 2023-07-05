@@ -1,0 +1,11 @@
+Hi ChatGpt, I need help converting the information in the following two tables into MSSQL queries: 
+Etudiant:IdEtudiant int NOT NULL IdBranch int NOT NULL  CNE VARCHAR(50) NOT NULL  Nom VARCHAR(50) NOT NULL Prenom VARCHAR(50) NOT NULL  
+DateNaissance date NOT NULL Num TelEtd int NOT NULL E-mail  VARCHAR(50) NOT NULL  Sexe VARCHAR(50) NOT NULL  Adress VARCHAR(50) NOT NULL. 
+Login VARCHAR(50) NOT NULL MDP VARCHAR(50) NOT NULL EtatEtudiant VARCHAR(50) NOT NULL IdParent int NOT NULL IdSurveillant int NOT NULL IdBranch  int NOT NULL.
+Branch: Idranch int NOT NULL  Titlebranch VARCHAR(50) NOT NULL CycleTitle  VARCHAR(50) NOT NULL  NiveauTitle   VARCHAR(50) NOT NULL	
+ Please note that this query assumes that the Idbranch in the 
+Etudiant table corresponds to the Idbranch field in the Branch table. 
+.Please Etudiant that the EtatEtudiant field must always be 'Actif'. Please be aware of the following errors: ‘An aggregate may not appear in the WHERE clause unless it is in a 
+subquery contained in a HAVING clause or a select list, and the column being aggregated is an outer reference.’ 
+‘The concat function requires 2 to 254 arguments.’ Please let the field 'Nom' from the table'Etudiant' be the first returned data from the query, 
+then show the others like Prenom This is the text to convert please :
